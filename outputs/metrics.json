@@ -1,0 +1,63 @@
+{
+  "donnees": {
+    "lots": 1567,
+    "periode": [
+      "2008-07-19 11:55:00",
+      "2008-10-17 06:07:00"
+    ],
+    "taux_rebut": 0.0664
+  },
+  "nettoyage": {
+    "capteurs_en_entree": 590,
+    "capteurs_conserves": 442,
+    "capteurs_retires_trop_de_manquants": 32,
+    "capteurs_retires_constants": 116,
+    "taux_valeurs_manquantes_avant": 0.0454
+  },
+  "spc": {
+    "episodes_alerte": 29049,
+    "capteurs_cpk_faible_phase2": 250,
+    "cpk_median_phase2": 1.295,
+    "episodes_par_regle": {
+      "hors_limites": 16586,
+      "run_8": 11246,
+      "tendance_6": 1217
+    },
+    "capteurs_cpk_plus_faible": [
+      {
+        "capteur": "capteur_542",
+        "cpk": -0.328
+      },
+      {
+        "capteur": "capteur_543",
+        "cpk": -0.24
+      },
+      {
+        "capteur": "capteur_545",
+        "cpk": -0.2
+      },
+      {
+        "capteur": "capteur_544",
+        "cpk": -0.151
+      },
+      {
+        "capteur": "capteur_129",
+        "cpk": 0.221
+      }
+    ]
+  },
+  "non_supervise": {
+    "auc_isolation_forest": 0.5385,
+    "auc_spe": 0.5909
+  },
+  "foret_aleatoire": {
+    "auc_roc_cv": 0.7659,
+    "average_precision_cv": 0.1808,
+    "auc_roc_temporel": 0.5255,
+    "average_precision_temporel": 0.0836,
+    "seuil": 0.1351,
+    "precision": 0.1618,
+    "rappel": 0.6923,
+    "taux_base": 0.0664
+  }
+}
